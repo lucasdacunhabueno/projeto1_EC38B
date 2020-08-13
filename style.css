@@ -77,9 +77,9 @@ header {
 }
 
 .covid{
-    background-color: rgba(5, 5, 255, .8);
+    background-color: #0071e3;
     margin-top: 4.4rem;
-    height: 4rem;
+    height: 4.4rem;
     background-size: auto 73.6rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,11 +87,7 @@ header {
 
 .shopOnline{
     background-color: #fff;
-    height: 4rem;
-    background-size: auto 73.6rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    
+    margin-top: 0;
 }
 
 a.one:link {color:#fff;}
@@ -102,16 +98,12 @@ a.one:hover {color:#fff;}
     font-size: 1.4rem;
     color: #fff;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 1.4rem;
     text-decoration: none;
 }
 
 .infoShop{
-    font-size: 1.4rem;
     color: #000;
-    text-align: center;
-    padding-top: 1rem;
-    text-decoration: none;
 }
 
 /* iPhone SE*/
@@ -167,7 +159,7 @@ a.one:hover {color:#fff;}
 }
 
 .cta-link:hover {
-    border-bottom: 2px solid #66bbff;
+    border-bottom: 2px solid #0071e3;
 }
 
 
@@ -186,7 +178,7 @@ a.one:hover {color:#fff;}
 }
 
 .cta-link-darker:hover {
-    border-bottom-color: #0070c9;
+    border-bottom-color: #0071e3;
 }
 
 /*Oprah section */
@@ -216,10 +208,10 @@ a.one:hover {color:#fff;}
 }
 
 @media screen and (max-width:1068px){
-    .iphone.iphone-se{
+    .iphone-se{
         background-image: url("resources/img/iphone-se/iphone_se_medium.jpg");
     }
-    .iphone.iphone-11{
+    .iphone-11{
         background-image: url("resources/img/iphone-11/iphone_11_medium.jpg");
     }
     .iphone.oprah{
@@ -258,8 +250,8 @@ a.one:hover {color:#fff;}
     }
 }
 
-@media screen and (max-width:765px){
-    .iphone.iphone-se{
+@media screen and (max-width:734px){
+    .iphone-se{
         background-image: url("resources/img/iphone-se/iphone_se_small.jpg");
     }
     header{
@@ -267,12 +259,24 @@ a.one:hover {color:#fff;}
         transition: background .36s cubic-bezier(0.33, 0.08, 0.24, 1), 
                     height .56s cubic-bezier(0.33, 0.08, 0.24, 1);
     }
+    .covid{
+        height: 6.4rem;
+        margin-top: 4.8rem;
+    }
+    .shopOnline{
+        margin-top: 0;
+    }
+    .info{
+        margin-left: 20%;
+        margin-right: 20%;
+        /*max-width: 35rem;*/
+        padding-top: 1.5rem;
+    }
     
     .cta-bottom {
         padding-top: 45rem;
         text-align: center;
     }
-    
 
     header .container{
         padding: 0;
@@ -348,7 +352,7 @@ a.one:hover {color:#fff;}
 
     .nav-link-apple{
         width: 1.8rem;
-        height: 4.8rem;
+        height: 4.4rem;
         position: relative;
         z-index: 1500;
     }
@@ -422,10 +426,10 @@ a.one:hover {color:#fff;}
 }
 
 @media screen and (max-width:730px){
-    .iphone.iphone-se{
+    .iphone-se{
         background-image: url("resources/img/iphone-se/iphone_se_small.jpg");
     }
-    .iphone.iphone-11{
+    .iphone-11{
         background-image: url("resources/img/iphone-11/iphone_11_small.jpg");
     }
     .iphone.oprah{
